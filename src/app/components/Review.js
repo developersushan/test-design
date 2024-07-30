@@ -58,7 +58,7 @@ const Review = () => {
         <div className='flex'>
             {
                 data.map((item)=>(
-                    <Image key={item.id}  className='-ml-[11px]' src={item.img} alt=''/>
+                    <Image width='auto' height='auto' key={item.id}  className='-ml-[11px]' src={item.img} alt=''/>
                 ))
             }
         </div>
@@ -67,7 +67,7 @@ const Review = () => {
             <div className='flex gap-1'>
                 {
                     starData.map((item)=>(
-                        <Image key={item.id} src={item.star} alt=''/>
+                        <Image width='auto' height='auto' key={item.id} src={item.star} alt=''/>
                     ))
                 }
             </div>

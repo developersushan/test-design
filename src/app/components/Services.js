@@ -14,7 +14,7 @@ const Services = () => {
         {
             serviceData.map((item)=>(
                 <div key={item.id} className={` py-[29px] px-[24px] ${item.id==4?'py-[0px] ':''}`}>
-                    <Image src={item.img} className={` mb-5${item.id==4 ?'mt-5':''}`} alt=''/>
+                    <Image width='auto' height='auto' src={item.img} className={` mb-5${item.id==4 ?'mt-5':''}`} alt=''/>
                     {item.id==4?'': <div className='flex flex-col gap-5 '>
                     <h3 className='text-[20px] leading-[23px] font-semibold'>{item.title}</h3>
                     <p className='text-[#8987A1] text-sm leading-6'>{item.des}</p>
@@ -27,7 +27,7 @@ const Services = () => {
         {
             serviceRightData.map((item)=>(
                 <div key={item.id} className={` px-[24px]  items-start  py-[29px] ${item.id==4?'py-[0px] ':''} ${item.id==3?'mt-0 ':''}`}>
-                    <Image src={item.img} className='' alt=''/>
+                    <Image width='auto' height='auto' src={item.img} className='' alt=''/>
                     {item.id==4?'': <div className={`flex flex-col gap-5 mt-5`}>
                     <h3 className='text-[20px] leading-[23px] font-semibold'>{item.title}</h3>
                     <p className='text-[#8987A1] text-sm leading-6'>{item.des}</p>

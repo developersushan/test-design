@@ -49,7 +49,7 @@ const Slider = () => {
         {
             SlideData.map((item)=>(
                     <SwiperSlide key={item.id}>
-                        <Image src={item.img} className='rounded h-[400px]' alt=''/>
+                        <Image width='auto' height='auto' src={item.img} className='rounded h-[400px]' alt=''/>
                     </SwiperSlide>
                
             ))

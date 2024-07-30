@@ -27,8 +27,8 @@ const Contact = () => {
     }
   return (
     <div className='mt-[124px] mb-[163px] relative'>
-        <Image className='absolute top-0 right-0' src={SlideIcon} alt=''/>
-        <Image className='absolute -bottom-[200px] left-0' src={LeftIcon} alt=''/>
+        <Image width='auto' height='auto' className='absolute top-0 right-0' src={SlideIcon} alt=''/>
+        <Image width='auto' height='auto' className='absolute -bottom-[200px] left-0' src={LeftIcon} alt=''/>
       <div className='w-[calc(100%_-_12px)]  xl:w-[700px] mx-auto'>
         <h3 className='text-[#252432] text-6xl font-bold leading-[72px]'>Let’s Get in Touch</h3>
         <form onSubmit={handleFrom} className='mt-[64px] flex flex-col gap-[19px] z-50' action="">
@@ -47,10 +47,10 @@ const Contact = () => {
             <button type='submit' className='text-base leading-6 bg-[#4E47FF] font-bold px-[97px] rounded-[10px] text-white py-[18px]'>Get in Touch</button>
         </form>
       </div>
-      <Image className='absolute top-[16.5rem] left-0 -z-10' src={Vector2} alt=''/>
-      <Image className='absolute top-[16.5rem] left-0 -z-10' src={Vector2} alt=''/>
-      <Image className='absolute top-[33px] right-0  -z-10' src={Vector1} alt=''/>
-      <Image className='absolute top-[6px] right-0  -z-10' src={Vector3} alt=''/>
+      <Image width='auto' height='auto' className='absolute top-[16.5rem] left-0 -z-10' src={Vector2} alt=''/>
+      <Image width='auto' height='auto' className='absolute top-[16.5rem] left-0 -z-10' src={Vector2} alt=''/>
+      <Image width='auto' height='auto' className='absolute top-[33px] right-0  -z-10' src={Vector1} alt=''/>
+      <Image width='auto' height='auto' className='absolute top-[6px] right-0  -z-10' src={Vector3} alt=''/>
     </div>
   )
 }

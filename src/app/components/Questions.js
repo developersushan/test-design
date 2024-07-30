@@ -13,7 +13,7 @@ const Questions = () => {
     }
   return (
     <div className='relative'>
-        <Image className='absolute -bottom-[170px] left-1' src={QuestionIcon} alt=''/>
+        <Image width='auto' height='auto' className='absolute -bottom-[170px] left-1' src={QuestionIcon} alt=''/>
       <div className='w-[calc(100%_-_12px)] my-[174px]  xl:w-[1150px] mx-auto flex items-center'>
         <div className='w-[454px]'>
             <h3 className='text-[#252432] text-6xl leading-[72px] font-bold'>Frequently Asked Questions</h3>
