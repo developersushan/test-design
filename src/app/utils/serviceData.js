@@ -1,9 +1,9 @@
-import Icon1 from '../assets/icon/Frame(1).png';
+import Icon1 from '../assets/Frame(1).png';
 
-import Icon4 from '../assets/icon/Frame.png';
-import Icon5 from '../assets/icon/Frame44.png';
+import Icon4 from '../assets/Frame.png';
+import Icon5 from '../assets/Frame44.png';
 
-import Icon8 from '../assets/icon/Vector.png';
+import Icon8 from '../assets/Vector.png';
 export const serviceData =[
 {
     id:1,

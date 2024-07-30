@@ -3,7 +3,7 @@ import Logo from  '../../assets/Logo.png'
 import Image from 'next/image'
 
 
-import { InstagramIcon, LinkedinIcon, LoveIcon, RedditIcon, TiktokIcon } from '@/app/assets/icon'
+import { InstagramIcon, LinkedinIcon, LoveIcon, RedditIcon, TiktokIcon } from '@/app/assets/icons'
 import Link from 'next/link'
 import { headerData } from '@/app/utils/headerData'
 const Footer = () => {

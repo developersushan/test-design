@@ -12,7 +12,7 @@ const CheckWork = () => {
            <LeftArrowBtn/>
             <div className=' flex flex-col gap-[32px]'>
             <h3 className='text-[#252432] text-6xl leading-[72px] font-bold'>Check our Work</h3>
-            <p className='text-[#8987A1] text-sm leading-[21px] font-normal w-[450px]'>Take a look at some of our recent projects to see how we've helped businesses like yours succeed online.</p>
+            <p className='text-[#8987A1] text-sm leading-[21px] font-normal w-[450px]'>Take a look at some of our recent projects to see how we ve helped businesses like yours succeed online.</p>
             </div>
             <RightArrowBtn/>
           </div>

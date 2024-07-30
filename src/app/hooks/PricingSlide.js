@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 // import './styles.css';
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import { pricingData } from '../utils/pricingData';
-import { MarkIcon } from '../assets/icon';
+import { MarkIcon } from '../assets/icons';
 import RightArrow from '../assets/Vector1.svg'
 import Image from 'next/image';
 const PricingSlide = () => {

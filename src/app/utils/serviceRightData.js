@@ -1,7 +1,7 @@
-import Icon2 from '../assets/icon/Frame(2).png';
-import Icon3 from '../assets/icon/Frame(3).png';
-import Icon6 from '../assets/icon/Frame(4).png';
-import Icon7 from '../assets/icon/Rectangle44.png';
+import Icon2 from '../assets/Frame(2).png';
+import Icon3 from '../assets/Frame(3).png';
+import Icon6 from '../assets/Frame(4).png';
+import Icon7 from '../assets/Rectangle44.png';
 export const serviceRightData=[
     {
         id:1,
