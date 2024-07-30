@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Slider from '../hooks/Slider'
 import LeftArrowBtn from '../hooks/LeftArrowBtn'
